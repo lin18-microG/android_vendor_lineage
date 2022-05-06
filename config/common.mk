@@ -6,7 +6,7 @@ PRODUCT_PACKAGES += \
     GmsCore \
     GsfProxy \
     FakeStore \
-    MozillaNlpBackend \
+    IchnaeaNlpBackend \
     NominatimNlpBackend \
     com.google.android.maps.jar \
     additional_repos.xml
