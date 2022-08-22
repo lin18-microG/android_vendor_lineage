@@ -1,22 +1,11 @@
 # Allow vendor/extra to override any property by setting it first
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 
-# microG packages
-PRODUCT_PACKAGES += \
-    GmsCore \
-    GsfProxy \
-    FakeStore \
-    IchnaeaNlpBackend \
-    NominatimNlpBackend \
-    com.google.android.maps.jar \
-    additional_repos.xml
-
 #eSpeakTTS engine
 PRODUCT_PACKAGES += eSpeakTTS
 # AuroraStore
 PRODUCT_PACKAGES += \
     AuroraServices \
-    AuroraStore \
     AuroraDroid
 # Bromite Webview & Browser
 PRODUCT_PACKAGES += \
