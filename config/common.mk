@@ -8,7 +8,6 @@ PRODUCT_PACKAGES += \
     FakeStore \
     IchnaeaNlpBackend \
     NominatimNlpBackend \
-    com.google.android.maps.jar \
     additional_repos.xml
 
 #eSpeakTTS engine
