@@ -17,9 +17,6 @@ PRODUCT_PACKAGES += \
     AuroraServices \
     AuroraStore \
     AuroraDroid
-# Bromite Webview & Browser
-PRODUCT_PACKAGES += \
-    Bromite
 # IPTABLES Block script
 PRODUCT_PACKAGES += z_iptables
 
