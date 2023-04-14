@@ -7,9 +7,6 @@ PRODUCT_PACKAGES += eSpeakTTS
 PRODUCT_PACKAGES += \
     AuroraServices \
     AuroraDroid
-# Bromite Webview & Browser
-PRODUCT_PACKAGES += \
-    Bromite
 # IPTABLES Block script
 PRODUCT_PACKAGES += z_iptables
 
