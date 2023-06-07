@@ -6,8 +6,6 @@ PRODUCT_PACKAGES += \
     GmsCore \
     GsfProxy \
     FakeStore \
-    IchnaeaNlpBackend \
-    NominatimNlpBackend \
     additional_repos.xml
 
 #eSpeakTTS engine
