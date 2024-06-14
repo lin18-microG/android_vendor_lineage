@@ -4,12 +4,14 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.lineage.custom_version=2024-05-01
 # Allow vendor/extra to override any property by setting it first
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 
+# FDroid
+PRODUCT_PACKAGES += \
+    FDroid \
+    FDroidPrivilegedExtension \
+    additional_repos.xml
 #eSpeakTTS engine
 PRODUCT_PACKAGES += eSpeakTTS
-# AuroraStore
-PRODUCT_PACKAGES += \
-    AuroraServices \
-    AuroraDroid
+
 # IPTABLES Block script
 PRODUCT_PACKAGES += z_iptables
 
